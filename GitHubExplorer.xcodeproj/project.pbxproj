@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4270EE11C70895900245A13 /* GitHubDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4270EE01C70895900245A13 /* GitHubDetailsTableViewCell.swift */; };
+		E4270EE31C72517600245A13 /* ImageLoadingWithCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4270EE21C72517600245A13 /* ImageLoadingWithCache.swift */; };
 		E4C707F21C6E747B00CBA2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C707F11C6E747B00CBA2D4 /* AppDelegate.swift */; };
-		E4C707F41C6E747B00CBA2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C707F31C6E747B00CBA2D4 /* ViewController.swift */; };
+		E4C707F41C6E747B00CBA2D4 /* GitHubExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C707F31C6E747B00CBA2D4 /* GitHubExplorerViewController.swift */; };
 		E4C707F71C6E747B00CBA2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C707F51C6E747B00CBA2D4 /* Main.storyboard */; };
 		E4C707F91C6E747B00CBA2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C707F81C6E747B00CBA2D4 /* Assets.xcassets */; };
 		E4C707FC1C6E747B00CBA2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C707FA1C6E747B00CBA2D4 /* LaunchScreen.storyboard */; };
 		E4C708071C6E747B00CBA2D4 /* GitHubExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C708061C6E747B00CBA2D4 /* GitHubExplorerTests.swift */; };
 		E4C708121C6E747C00CBA2D4 /* GitHubExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C708111C6E747C00CBA2D4 /* GitHubExplorerUITests.swift */; };
+		E4C708201C6F5C8300CBA2D4 /* GitHubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7081F1C6F5C8300CBA2D4 /* GitHubManager.swift */; };
+		E4FBBAC51C73213700316F0F /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FBBAC41C73213700316F0F /* RepositoryDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4270EE01C70895900245A13 /* GitHubDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		E4270EE21C72517600245A13 /* ImageLoadingWithCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadingWithCache.swift; sourceTree = "<group>"; };
 		E4C707EE1C6E747B00CBA2D4 /* GitHubExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C707F11C6E747B00CBA2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4C707F31C6E747B00CBA2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4C707F31C6E747B00CBA2D4 /* GitHubExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubExplorerViewController.swift; sourceTree = "<group>"; };
 		E4C707F61C6E747B00CBA2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4C707F81C6E747B00CBA2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C707FB1C6E747B00CBA2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		E4C7080D1C6E747B00CBA2D4 /* GitHubExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C708111C6E747C00CBA2D4 /* GitHubExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubExplorerUITests.swift; sourceTree = "<group>"; };
 		E4C708131C6E747C00CBA2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C7081F1C6F5C8300CBA2D4 /* GitHubManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubManager.swift; sourceTree = "<group>"; };
+		E4FBBAC41C73213700316F0F /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				E4C707F11C6E747B00CBA2D4 /* AppDelegate.swift */,
-				E4C707F31C6E747B00CBA2D4 /* ViewController.swift */,
+				E4C707F31C6E747B00CBA2D4 /* GitHubExplorerViewController.swift */,
+				E4C7081F1C6F5C8300CBA2D4 /* GitHubManager.swift */,
+				E4270EE01C70895900245A13 /* GitHubDetailsTableViewCell.swift */,
 				E4C707F51C6E747B00CBA2D4 /* Main.storyboard */,
 				E4C707F81C6E747B00CBA2D4 /* Assets.xcassets */,
 				E4C707FA1C6E747B00CBA2D4 /* LaunchScreen.storyboard */,
 				E4C707FD1C6E747B00CBA2D4 /* Info.plist */,
+				E4270EE21C72517600245A13 /* ImageLoadingWithCache.swift */,
+				E4FBBAC41C73213700316F0F /* RepositoryDetailsViewController.swift */,
 			);
 			path = GitHubExplorer;
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					E4C707ED1C6E747B00CBA2D4 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ENT89NLKC9;
 					};
 					E4C708011C6E747B00CBA2D4 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C707F41C6E747B00CBA2D4 /* ViewController.swift in Sources */,
+				E4C708201C6F5C8300CBA2D4 /* GitHubManager.swift in Sources */,
+				E4270EE31C72517600245A13 /* ImageLoadingWithCache.swift in Sources */,
+				E4C707F41C6E747B00CBA2D4 /* GitHubExplorerViewController.swift in Sources */,
+				E4270EE11C70895900245A13 /* GitHubDetailsTableViewCell.swift in Sources */,
 				E4C707F21C6E747B00CBA2D4 /* AppDelegate.swift in Sources */,
+				E4FBBAC51C73213700316F0F /* RepositoryDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GitHubExplorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PerSuKiBo.GitHubExplorer;
@@ -408,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GitHubExplorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PerSuKiBo.GitHubExplorer;
@@ -482,6 +501,7 @@
 				E4C708181C6E747C00CBA2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C708191C6E747C00CBA2D4 /* Build configuration list for PBXNativeTarget "GitHubExplorerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +510,7 @@
 				E4C7081B1C6E747C00CBA2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C7081C1C6E747C00CBA2D4 /* Build configuration list for PBXNativeTarget "GitHubExplorerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				E4C7081E1C6E747C00CBA2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
